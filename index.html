@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TaskList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">JS TaskList</a>
+    </nav>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3>TaskList</h3>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form id="Forms">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter a Task" id="inputs">
+                            </div>
+                            <div>
+                                <input type="submit" class="btn btn-success" value="Add Task">
+                            </div>
+                        </form>
+                        <div>
+                            <button class="btn btn-warning" id="removes">Remove All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-group" id="Task">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+    <script src="tasklist.js"></script>
+</body>
+</html>

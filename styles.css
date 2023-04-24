@@ -1,0 +1,10 @@
+.fa-times{
+    float: right;
+}
+body{
+    background-color: rgb(116, 154, 167);
+}
+
+.bg-dark{
+    background: linear-gradient(45deg,orange,lightblue,darkgreen);
+}
